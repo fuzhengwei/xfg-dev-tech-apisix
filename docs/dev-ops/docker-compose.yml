@@ -16,7 +16,7 @@
 #
 
 version: "3"
-
+# 脚本；docker-compose -f docker-compose.yml up -d
 services:
   dashboard:
     image: "apache/apisix-dashboard:3.0.0-centos"
